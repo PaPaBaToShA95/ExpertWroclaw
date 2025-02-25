@@ -1,0 +1,163 @@
+body {
+    background-color: #F2F3F3;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #e3e4e4;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cont__btn {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #52AB98;
+
+    color: white;
+}
+
+.logo__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu__list {
+    display: flex;
+    gap: 20px;
+}
+
+.img__repair {
+    width: 475px;
+    height: 400px;
+    border-radius: 0 15px 15px 0;
+}
+
+.block {
+    width: 280px;
+    height: 250px;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.services__block {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+
+.block__img {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    width: 50px;
+    height: 50px;
+}
+
+.block__title {
+    margin-bottom: 14px;
+}
+
+.fast__repair {
+    display: flex;
+    width: 950px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.text__repair {
+    width: 475px;
+    height: 400px;
+    text-align: center;
+}
+
+.book__repair {
+    margin-top: 32px;
+    margin-bottom: 62px;
+    width: 950px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title__repair {
+    margin-left: 65px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: #2B6777;
+}
+
+.discription__repair {
+    margin-left: 65px;
+    margin-right: 200px;
+    text-align: left;
+    color: #969AB8;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 103px;
+}
+
+.repair__btn {
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #52AB98;
+    color: white;
+}
+
+.text__repair {
+    justify-items: center;
+}
+
+.block__title {
+    font-family: "Poppins", serif;
+    color: #555555;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block__discription {
+    font-size: 18px;
+    margin-left: 29px;
+    margin-right: 29px;
+    font-weight: 200;
+}
